@@ -23,11 +23,9 @@ const query = graphql`
 
 const Jobs = () => {
   const data = useStaticQuery(query)
-  const {
-    allStrapiJobs: { nodes: jobs }
-  } = data
+  const { allStrapiJobs: { nodes: jobs } } = data
   const [value, setValue] = React.useState(0)
-  const { company, position, date, desc, strapiId } = jobs[value]
+  const { company, position, date, desc } = jobs[value]
 
 
   return (
