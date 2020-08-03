@@ -22,7 +22,7 @@ const Hero = () => {
   return (
     <header className="hero">
       <div className="section-center hero-center">
-        <article classname="hero-info">
+        <article className="hero-info">
           <div>
             <div className="underline"></div>
             <h1>I'm Christian</h1>
